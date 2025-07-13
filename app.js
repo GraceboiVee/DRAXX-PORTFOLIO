@@ -71,7 +71,6 @@ function animateOnScroll() {
     ...document.querySelectorAll('.about-text h2'),
     ...document.querySelectorAll('.about-img img'),
     ...document.querySelectorAll('.ser-title'),
-    ...document.querySelectorAll('.nav-links a'),
     ...document.querySelectorAll('.more-btn'),
     ...document.querySelectorAll('.read-more'),
     ...document.querySelectorAll('.technical-bar .bar .progress-line span'),
@@ -103,7 +102,6 @@ function animateOnScroll() {
       if (el.matches('.about-img img')) el.classList.add('animate-slideInFromLeft');
       if (el.matches('.more-btn')) el.classList.add('animate-slideTop');
       if (el.matches('.read-more')) el.classList.add('animate-slideTop');
-      if (el.matches('.nav-links a')) el.classList.add('animate-slideTop');
       if (el.matches('.technical-bar .bar .progress-line span')) el.classList.add('animate-fillBar');
       if (el.matches('.radial-bar .percentage, .radial-bar .text1')) el.classList.add('animate-showText');
       if (el.matches('.radial-bar .path')) el.classList.add('animate-path');

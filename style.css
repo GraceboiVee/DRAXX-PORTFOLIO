@@ -110,6 +110,7 @@ body {
   font-weight: 700;
   transition: 0.3s;
   margin-left: 35px;
+  animation: slideTop 1.5s ease forwards;
   animation-delay: calc(1s * var(--1));
 
 }
